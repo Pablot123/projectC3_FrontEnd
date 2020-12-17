@@ -2,7 +2,7 @@
   <div id="app">
     <div>
       <ul class="navbar">
-        <li class="nav"><router-link class="bar" to="/home">Home</router-link></li>
+        <li class="nav"><router-link class="bar" to="/">Home</router-link></li>
         <li class="nav"><router-link class="bar" to="/consultar">Consultar</router-link></li>
         <li class="nav"><router-link class="bar" to="/reservar">Reservar</router-link></li> 
         <li class="nav"><router-link class="bar" to="/aboutus">About Us</router-link></li>
