@@ -6,11 +6,11 @@
                 <legend>Datos del usuario</legend>
                 <div class="form-group">
                     <label>Nombre: </label>
-                    <input type="email" class="form-control" id="nombre_usuario" aria-describedby="emailHelp" placeholder="insert nombre">
+                    <input type="email" class="form-control" id="nombre_usuario" aria-describedby="emailHelp" placeholder="Nombre">
                 </div>
                 <div class="form-group">
                     <label>Apellido: </label>
-                    <input type="email" class="form-control" id="apellido_usuario" aria-describedby="emailHelp" placeholder="insert apellido">
+                    <input type="email" class="form-control" id="apellido_usuario" aria-describedby="emailHelp" placeholder="Apellido">
                 </div>
                 <div class="form-group">
                     <label>Email address: </label>
@@ -18,7 +18,7 @@
                 </div>
                 <div class="form-group">
                     <label >Telefono: </label>
-                    <input type="email" class="form-control" id="numero_telefono" aria-describedby="emailHelp" placeholder="insert telefono">
+                    <input type="email" class="form-control" id="numero_telefono" aria-describedby="emailHelp" placeholder="Telefono">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Password: </label>
@@ -34,7 +34,7 @@
                 </div>
                 <div class="form-group">
                     <label >Numero de documento: </label>
-                    <input type="email" class="form-control" id="numero_identificacion" aria-describedby="emailHelp" placeholder="insert numero">
+                    <input type="email" class="form-control" id="numero_identificacion" aria-describedby="emailHelp" placeholder="Telefono">
                 </div>
             </fieldset>
             <br>
@@ -43,11 +43,11 @@
 
 
             <fieldset class="form-group">
-                <legend>datos de la reserva</legend>
+                <legend>Datos de la reserva</legend>
                 <div>
                     <ul>
                         <li>
-                            <label for="start">Fecha de ingreso:</label>
+                            <label for="start">Fecha de Ingreso:</label>
                             <input type="date" id="start" name="trip-start"
                             value="2018-07-22"
                             min="2018-01-01" max="2018-12-31">
@@ -62,11 +62,11 @@
 
                 </div>
                 <div class="form-group">
-                    <label >Numero de adultos: </label>
+                    <label >Cantidad de adultos: </label>
                     <input type="email" class="form-control" id="cantidad_adultos" aria-describedby="emailHelp" placeholder="Cant adultos">
                 </div>
                 <div class="form-group">
-                    <label >Numero de niños: </label>
+                    <label >Cantidad de niños: </label>
                     <input type="email" class="form-control" id="cantidad_niños" aria-describedby="emailHelp" placeholder="Cant niños">
                 </div>
             
@@ -76,7 +76,7 @@
     
         </form>
         <br>
-        <button class="button button2">Shadow on Hover</button>
+        <button class="button button2">Reservar</button>
 
     </div>
 </template>
