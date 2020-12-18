@@ -1,25 +1,27 @@
 <template>
     <div class="consultar">
-        <h1>Consultar</h1>
         <img src="../assets/logo6.png">
 
         <br>
         <h2>Consultar reserva</h2>
         <ul>
-            <li>
-                <label for="start">Fecha de ingreso:</label>
+            <fieldset class="form-group">
+                <legend>Datos de la reserva</legend>
+                <div>
+                    <ul>
+                        <li>
+                            <label >Ingrese su email:</label>
+                            <input type="text" id="email">
+                        </li>
+                        <li>
+                            <label >Numero de identificacion:</label>
+                            <input type="text" id="num_identificacion">
+                        </li>
+                    </ul>
 
-                <input type="date" id="start" name="trip-start"
-                value="2018-07-22"
-                min="2018-01-01" max="2018-12-31">
-            </li>
-            <li>
-                <label for="start">Fecha de salida:</label>
-
-                <input type="date" id="Out" name="trip-start"
-                value="2018-07-22"
-                min="2018-01-01" max="2018-12-31">
-            </li>
+                </div>
+                
+            </fieldset>
         </ul>
 
         <input type="button" value="Consultar disponibilidad">
